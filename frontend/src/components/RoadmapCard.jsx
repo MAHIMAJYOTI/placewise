@@ -1,3 +1,5 @@
+import React from 'react';
+
 function RoadmapCard({ roadmap }) {
   const title = roadmap?.title || 'Roadmap';
   const steps = roadmap?.steps || [];
